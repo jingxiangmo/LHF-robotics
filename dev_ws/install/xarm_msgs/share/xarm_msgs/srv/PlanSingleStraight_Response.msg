@@ -1,1 +1,0 @@
-/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_msgs/rosidl_cmake/srv/PlanSingleStraight_Response.msg

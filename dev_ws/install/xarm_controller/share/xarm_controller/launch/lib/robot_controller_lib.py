@@ -1,1 +1,0 @@
-/home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/xarm_ros2/xarm_controller/launch/lib/robot_controller_lib.py

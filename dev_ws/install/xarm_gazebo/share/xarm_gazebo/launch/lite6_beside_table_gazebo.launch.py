@@ -1,1 +1,0 @@
-/home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/xarm_ros2/xarm_gazebo/launch/lite6_beside_table_gazebo.launch.py

@@ -1,1 +1,0 @@
-/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_msgs/rosidl_generator_c/xarm_msgs/srv/detail/get_set_modbus_data__type_support.h

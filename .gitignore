@@ -1,10 +1,12 @@
-# Created by https://www.toptal.com/developers/gitignore/api/ros2
-# Edit at https://www.toptal.com/developers/gitignore?templates=ros2
-
 ### ROS2 ###
-install/
-log/
-build/
+**/install/
+**/log/
+**/build/
+
+# Explicitly ignore the dev_ws build, install, and log directories
+/dev_ws/install/
+/dev_ws/log/
+/dev_ws/build/
 
 # Ignore generated docs
 *.dox
@@ -31,5 +33,3 @@ qtcreator-*
 # Colcon custom files
 COLCON_IGNORE
 AMENT_IGNORE
-
-# End of https://www.toptal.com/developers/gitignore/api/ros2

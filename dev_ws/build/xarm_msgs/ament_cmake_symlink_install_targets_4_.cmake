@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_msgs/rosidl_generator_py/xarm_msgs/xarm_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" "TARGETS" "xarm_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/xarm_msgs")

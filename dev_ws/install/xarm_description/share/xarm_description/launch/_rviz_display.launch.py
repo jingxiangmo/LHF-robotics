@@ -1,1 +1,0 @@
-/home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/xarm_ros2/xarm_description/launch/_rviz_display.launch.py

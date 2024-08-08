@@ -1,1 +1,0 @@
-/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_msgs/rosidl_generator_c/xarm_msgs/srv/detail/linear_track_set_pos__functions.h
