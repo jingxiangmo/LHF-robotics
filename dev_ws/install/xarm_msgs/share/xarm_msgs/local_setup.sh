@@ -1,0 +1,1 @@
+/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_msgs/ament_cmake_environment_hooks/local_setup.sh

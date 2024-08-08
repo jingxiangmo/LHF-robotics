@@ -1,0 +1,128 @@
+[0.022s] Invoking command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/xarm_ros2/xarm_sdk -DCMAKE_INSTALL_PREFIX=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk
+[0.138s] -- The C compiler identification is GNU 9.4.0
+[0.230s] -- The CXX compiler identification is GNU 9.4.0
+[0.236s] -- Check for working C compiler: /usr/bin/cc
+[0.314s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.316s] -- Detecting C compiler ABI info
+[0.391s] -- Detecting C compiler ABI info - done
+[0.409s] -- Detecting C compile features
+[0.410s] -- Detecting C compile features - done
+[0.414s] -- Check for working CXX compiler: /usr/bin/c++
+[0.504s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.505s] -- Detecting CXX compiler ABI info
+[0.593s] -- Detecting CXX compiler ABI info - done
+[0.608s] -- Detecting CXX compile features
+[0.609s] -- Detecting CXX compile features - done
+[0.612s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.638s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.638s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.856s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.938s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.952s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.953s] -- Configured cppcheck include dirs: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/xarm_ros2/xarm_sdk/cxx/include
+[0.953s] -- Configured cppcheck exclude dirs and/or files: 
+[0.964s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.964s] -- Configured cpplint exclude dirs and/or files: 
+[0.971s] -- Added test 'lint_cmake' to check CMake code style
+[0.978s] -- Added test 'uncrustify' to check C / C++ code style
+[0.978s] -- Configured uncrustify additional arguments: 
+[0.980s] -- Added test 'xmllint' to check XML markup files
+[0.983s] -- Configuring done
+[0.991s] -- Generating done
+[0.992s] -- Build files have been written to: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk
+[0.996s] Invoked command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/xarm_ros2/xarm_sdk -DCMAKE_INSTALL_PREFIX=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk
+[0.999s] Invoking command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk -- -j8 -l8
+[1.047s] [35m[1mScanning dependencies of target xarm_cxx_sdk[0m
+[1.081s] [  3%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_linux.cc.o[0m
+[1.091s] [  6%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_win.cc.o[0m
+[1.098s] [  9%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_osx.cc.o[0m
+[1.101s] [ 12%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/unix.cc.o[0m
+[1.114s] [ 15%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/win.cc.o[0m
+[1.119s] [ 18%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/common/crc16.cc.o[0m
+[1.120s] [ 21%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/serial.cc.o[0m
+[1.125s] [ 25%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/common/queue_memcpy.cc.o[0m
+[1.197s] [ 28%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/debug/debug_print.cc.o[0m
+[1.207s] [ 31%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/connect.cc.o[0m
+[1.217s] [ 34%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd.cc.o[0m
+[1.229s] [ 37%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd_ser.cc.o[0m
+[1.349s] [ 40%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd_tcp.cc.o[0m
+[1.640s] [ 43%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/os/network.cc.o[0m
+[1.959s] [ 46%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/port/socket.cc.o[0m
+[1.981s] [ 50%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/port/ser.cc.o[0m
+[2.120s] [ 53%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/report_data.cc.o[0m
+[2.173s] [ 56%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_api.cc.o[0m
+[2.245s] [ 59%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_bio.cc.o[0m
+[2.283s] [ 62%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_events.cc.o[0m
+[2.389s] [ 65%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_ft_sensor.cc.o[0m
+[2.563s] [ 68%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_gpio.cc.o[0m
+[2.826s] [ 71%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_gripper.cc.o[0m
+[2.889s] [ 75%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_modbus_tcp.cc.o[0m
+[3.269s] [ 78%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_motion.cc.o[0m
+[4.009s] [ 81%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_params.cc.o[0m
+[4.137s] [ 84%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_record.cc.o[0m
+[4.555s] [ 87%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_report.cc.o[0m
+[4.588s] [ 90%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_robotiq.cc.o[0m
+[4.672s] [ 93%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_servo.cc.o[0m
+[4.949s] [ 96%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_track.cc.o[0m
+[7.828s] [100%] [32m[1mLinking CXX shared library libxarm_cxx_sdk.so[0m
+[8.050s] [100%] Built target xarm_cxx_sdk
+[8.067s] Invoked command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk -- -j8 -l8
+[8.205s] Invoking command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk
+[8.218s] -- Install configuration: ""
+[8.219s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/environment/library_path.sh
+[8.219s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/environment/library_path.dsv
+[8.219s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include
+[8.219s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/serial
+[8.219s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/serial/impl
+[8.219s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/serial/impl/unix.h
+[8.219s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/serial/impl/win.h
+[8.219s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/serial/v8stdint.h
+[8.219s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/serial/serial.h
+[8.219s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm
+[8.219s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/wrapper
+[8.220s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/wrapper/common
+[8.220s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/wrapper/common/utils.h
+[8.220s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/wrapper/common/timer.h
+[8.220s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/wrapper/xarm_api.h
+[8.220s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core
+[8.220s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/os
+[8.220s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/os/bak
+[8.220s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/os/bak/thread.h
+[8.220s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/os/network.h
+[8.220s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/connect.h
+[8.221s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/port
+[8.221s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/port/socket.h
+[8.221s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/port/ser.h
+[8.221s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/common
+[8.221s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/common/queue_memcpy.h
+[8.221s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/common/data_type.h
+[8.221s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/common/crc16.h
+[8.221s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/debug
+[8.221s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/debug/debug_print.h
+[8.221s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/xarm_config.h
+[8.221s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/instruction
+[8.222s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_tcp.h
+[8.222s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_config.h
+[8.222s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_ser.h
+[8.222s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/servo3_config.h
+[8.222s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd.h
+[8.222s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/report_data.h
+[8.222s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/lib/libxarm_cxx_sdk.so
+[8.224s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/ament_index/resource_index/package_run_dependencies/xarm_sdk
+[8.224s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/ament_index/resource_index/parent_prefix_path/xarm_sdk
+[8.224s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.sh
+[8.224s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.dsv
+[8.224s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/environment/path.sh
+[8.225s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/environment/path.dsv
+[8.225s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/local_setup.bash
+[8.225s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/local_setup.sh
+[8.225s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/local_setup.zsh
+[8.225s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/local_setup.dsv
+[8.225s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/package.dsv
+[8.225s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/ament_index/resource_index/packages/xarm_sdk
+[8.225s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[8.225s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.225s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig.cmake
+[8.226s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig-version.cmake
+[8.226s] -- Installing: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/package.xml
+[8.228s] Invoked command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk

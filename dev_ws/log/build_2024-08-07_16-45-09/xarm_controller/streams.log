@@ -1,0 +1,47 @@
+[0.014s] Invoking command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_controller': AMENT_PREFIX_PATH=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_api:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_msgs:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_api:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_msgs:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_api/lib:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/lib:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/tmp/.mount_cursor7PHnXd/usr/lib PYTHONPATH=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/xarm_ros2/xarm_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_controller
+[0.027s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.047s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.198s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.203s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.253s] -- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)
+[0.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.292s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.363s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.391s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.463s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.914s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.958s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.960s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.961s] -- Looking for pthread.h
+[1.038s] -- Looking for pthread.h - found
+[1.038s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.118s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.119s] -- Looking for pthread_create in pthreads
+[1.181s] -- Looking for pthread_create in pthreads - not found
+[1.181s] -- Looking for pthread_create in pthread
+[1.252s] -- Looking for pthread_create in pthread - found
+[1.253s] -- Found Threads: TRUE  
+[1.407s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.454s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.493s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.584s] CMake Error at CMakeLists.txt:45 (find_package):
+[1.585s]   By not providing "Findcontroller_manager_msgs.cmake" in CMAKE_MODULE_PATH
+[1.585s]   this project has asked CMake to find a package configuration file provided
+[1.585s]   by "controller_manager_msgs", but CMake did not find one.
+[1.585s] 
+[1.585s]   Could not find a package configuration file provided by
+[1.585s]   "controller_manager_msgs" with any of the following names:
+[1.585s] 
+[1.585s]     controller_manager_msgsConfig.cmake
+[1.585s]     controller_manager_msgs-config.cmake
+[1.585s] 
+[1.585s]   Add the installation prefix of "controller_manager_msgs" to
+[1.585s]   CMAKE_PREFIX_PATH or set "controller_manager_msgs_DIR" to a directory
+[1.585s]   containing one of the above files.  If "controller_manager_msgs" provides a
+[1.585s]   separate development package or SDK, be sure it has been installed.
+[1.585s] 
+[1.585s] 
+[1.586s] -- Configuring incomplete, errors occurred!
+[1.586s] See also "/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_controller/CMakeFiles/CMakeOutput.log".
+[1.586s] See also "/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_controller/CMakeFiles/CMakeError.log".
+[1.594s] Invoked command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_controller' returned '1': AMENT_PREFIX_PATH=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_api:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_msgs:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_api:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_msgs:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_api/lib:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/lib:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/tmp/.mount_cursor7PHnXd/usr/lib PYTHONPATH=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/xarm_ros2/xarm_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_controller
