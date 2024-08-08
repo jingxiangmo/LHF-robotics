@@ -1,0 +1,37 @@
+[0.605s] Invoking command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/detection_node': PYTHONPATH=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/detection_node/prefix_override:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/detection_node build --build-base /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/detection_node/build install --record /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/detection_node/install.log --install-scripts $base/lib/detection_node --single-version-externally-managed install_data
+[0.780s] running egg_info
+[0.780s] creating ../../build/detection_node/detection_node.egg-info
+[0.781s] writing ../../build/detection_node/detection_node.egg-info/PKG-INFO
+[0.781s] writing dependency_links to ../../build/detection_node/detection_node.egg-info/dependency_links.txt
+[0.781s] writing entry points to ../../build/detection_node/detection_node.egg-info/entry_points.txt
+[0.781s] writing requirements to ../../build/detection_node/detection_node.egg-info/requires.txt
+[0.781s] writing top-level names to ../../build/detection_node/detection_node.egg-info/top_level.txt
+[0.792s] writing manifest file '../../build/detection_node/detection_node.egg-info/SOURCES.txt'
+[0.820s] reading manifest file '../../build/detection_node/detection_node.egg-info/SOURCES.txt'
+[0.820s] writing manifest file '../../build/detection_node/detection_node.egg-info/SOURCES.txt'
+[0.820s] running build
+[0.820s] running build_py
+[0.821s] creating /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/detection_node/build
+[0.821s] creating /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/detection_node/build/lib
+[0.821s] creating /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/detection_node/build/lib/detection_node
+[0.821s] copying detection_node/detection.py -> /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/detection_node/build/lib/detection_node
+[0.821s] copying detection_node/__init__.py -> /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/detection_node/build/lib/detection_node
+[0.821s] running install
+[0.822s] running install_lib
+[0.822s] creating /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node/lib/python3.8/site-packages/detection_node
+[0.822s] copying /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/detection_node/build/lib/detection_node/detection.py -> /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node/lib/python3.8/site-packages/detection_node
+[0.822s] copying /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/detection_node/build/lib/detection_node/__init__.py -> /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node/lib/python3.8/site-packages/detection_node
+[0.823s] byte-compiling /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node/lib/python3.8/site-packages/detection_node/detection.py to detection.cpython-38.pyc
+[0.824s] byte-compiling /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node/lib/python3.8/site-packages/detection_node/__init__.py to __init__.cpython-38.pyc
+[0.824s] running install_data
+[0.824s] creating /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node/share/ament_index
+[0.824s] creating /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node/share/ament_index/resource_index
+[0.824s] creating /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node/share/ament_index/resource_index/packages
+[0.824s] copying resource/detection_node -> /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node/share/ament_index/resource_index/packages
+[0.824s] copying package.xml -> /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node/share/detection_node
+[0.824s] running install_egg_info
+[0.826s] Copying ../../build/detection_node/detection_node.egg-info to /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node/lib/python3.8/site-packages/detection_node-0.0.0-py3.8.egg-info
+[0.826s] running install_scripts
+[0.841s] Installing strawberry_detector script to /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node/lib/detection_node
+[0.841s] writing list of installed files to '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/detection_node/install.log'
+[0.857s] Invoked command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/detection_node' returned '0': PYTHONPATH=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/detection_node/prefix_override:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/detection_node build --build-base /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/detection_node/build install --record /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/detection_node/install.log --install-scripts $base/lib/detection_node --single-version-externally-managed install_data

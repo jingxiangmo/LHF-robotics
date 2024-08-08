@@ -1,0 +1,1 @@
+/home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/xarm_ros2/xarm_gazebo/include/xarm_gazebo/mimic_joint_plugin.h

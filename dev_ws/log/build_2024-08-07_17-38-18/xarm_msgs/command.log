@@ -1,0 +1,1 @@
+Invoking command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_msgs': /usr/bin/cmake /home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/xarm_ros2/xarm_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_msgs

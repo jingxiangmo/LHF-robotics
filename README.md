@@ -7,6 +7,9 @@
 ## Dependencies
 Ubuntu 20.04
 ROS2 Foxy
+Rviz2
+Moveit
+
 
 
 ## Setup
@@ -29,5 +32,5 @@ rosdep update --include-eol-distros
 
 
 
-
-
+source /opt/ros/foxy/setup.zsh    
+source dev_ws/install/setup.bash

@@ -1,0 +1,4 @@
+Invoking command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk -- -j8 -l8
+Invoked command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk -- -j8 -l8
+Invoking command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk
+Invoked command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk

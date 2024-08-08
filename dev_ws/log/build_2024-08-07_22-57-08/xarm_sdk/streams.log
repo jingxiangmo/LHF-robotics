@@ -1,0 +1,69 @@
+[0.031s] Invoking command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node /usr/bin/cmake /home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/xarm_ros2/xarm_sdk -DCMAKE_INSTALL_PREFIX=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk
+[0.051s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.090s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.497s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.510s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.628s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.645s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.647s] -- Configured cppcheck include dirs: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/xarm_ros2/xarm_sdk/cxx/include
+[0.648s] -- Configured cppcheck exclude dirs and/or files: 
+[0.668s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.668s] -- Configured cpplint exclude dirs and/or files: 
+[0.675s] -- Added test 'lint_cmake' to check CMake code style
+[0.696s] -- Added test 'uncrustify' to check C / C++ code style
+[0.696s] -- Configured uncrustify additional arguments: 
+[0.700s] -- Added test 'xmllint' to check XML markup files
+[0.706s] -- Configuring done
+[0.719s] -- Generating done
+[0.721s] -- Build files have been written to: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk
+[0.748s] Invoked command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node /usr/bin/cmake /home/jingxiangmo/Developer/LHF-robotics/dev_ws/src/xarm_ros2/xarm_sdk -DCMAKE_INSTALL_PREFIX=/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk
+[0.752s] Invoking command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node /usr/bin/cmake --build /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk -- -j8 -l8
+[0.892s] [100%] Built target xarm_cxx_sdk
+[0.924s] Invoked command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node /usr/bin/cmake --build /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk -- -j8 -l8
+[1.152s] Invoking command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node /usr/bin/cmake --install /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk
+[1.170s] -- Install configuration: ""
+[1.171s] -- Execute custom install script
+[1.171s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/environment/library_path.sh
+[1.172s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/environment/library_path.dsv
+[1.174s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/serial/impl/unix.h
+[1.174s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/serial/impl/win.h
+[1.174s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/serial/serial.h
+[1.175s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/serial/v8stdint.h
+[1.175s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/common/crc16.h
+[1.175s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/common/data_type.h
+[1.176s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/common/queue_memcpy.h
+[1.176s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/connect.h
+[1.176s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/debug/debug_print.h
+[1.177s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/servo3_config.h
+[1.177s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd.h
+[1.177s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_config.h
+[1.178s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_ser.h
+[1.178s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_tcp.h
+[1.178s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/os/bak/thread.h
+[1.179s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/os/network.h
+[1.179s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/port/ser.h
+[1.179s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/port/socket.h
+[1.180s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/report_data.h
+[1.180s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/core/xarm_config.h
+[1.180s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/wrapper/common/timer.h
+[1.181s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/wrapper/common/utils.h
+[1.181s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/cxx/include/xarm/wrapper/xarm_api.h
+[1.182s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/lib/libxarm_cxx_sdk.so
+[1.182s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/ament_index/resource_index/package_run_dependencies/xarm_sdk
+[1.183s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/ament_index/resource_index/parent_prefix_path/xarm_sdk
+[1.183s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.sh
+[1.184s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.dsv
+[1.184s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/environment/path.sh
+[1.185s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/environment/path.dsv
+[1.185s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/local_setup.bash
+[1.186s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/local_setup.sh
+[1.186s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/local_setup.zsh
+[1.187s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/local_setup.dsv
+[1.187s] -- Symlinking: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/package.dsv
+[1.209s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/ament_index/resource_index/packages/xarm_sdk
+[1.209s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.209s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.210s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig.cmake
+[1.210s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig-version.cmake
+[1.211s] -- Up-to-date symlink: /home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/xarm_sdk/share/xarm_sdk/package.xml
+[1.215s] Invoked command in '/home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jingxiangmo/Developer/LHF-robotics/dev_ws/install/detection_node /usr/bin/cmake --install /home/jingxiangmo/Developer/LHF-robotics/dev_ws/build/xarm_sdk
