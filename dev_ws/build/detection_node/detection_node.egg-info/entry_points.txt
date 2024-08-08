@@ -1,0 +1,3 @@
+[console_scripts]
+detection = detection_node.detection:main
+
