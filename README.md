@@ -21,6 +21,7 @@ If you encounter errors during the building process for the first time, try inst
 
 
 https://docs.ufactory.cc/xarm_ros2/readme_en
+rosdep update --include-eol-distros
 
 
 
